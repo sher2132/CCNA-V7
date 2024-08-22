@@ -1,5 +1,6 @@
 # CCNA-V7
 #Configure Router Interfaces
+
 R1(config)# interface gigabitethernet 0/0/0
 R1(config-if)# ip address 192.168.10.1 255.255.255.0 
 R1(config-if)# ipv6 address 2001:db8:acad:1::1/64 
